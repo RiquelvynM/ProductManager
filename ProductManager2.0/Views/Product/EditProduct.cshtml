@@ -5,36 +5,33 @@
 }
 
 
-<h2>Editar Producto</h2>
+<h2>Edit Product</h2>
 
 
 <div class="container">
     <form class="form-group" id="formEdit">
         <div>
-            <label class="text-warning">@ViewBag.Error</label>
-        </div>
-        <div>
-            <label>Codigo</label>
+            <label>Code</label>
             <input type="number" value="@Model.Rows[0][0]" id="id" disabled />
         </div>
 
         <div class="form-group">
-            <label>Nombre</label>
+            <label>Name</label>
             <input type="text" value="@Model.Rows[0][1]" id="name" required>
         </div>
 
         <div class="form-group">
-            <label>Precio</label>
+            <label>Price</label>
             <input type="number" value="@Model.Rows[0][2]" id="price" required />
         </div>
 
         <div class="form-group">
-            <label>Detalle</label>
+            <label>Details</label>
             <input value="@Model.Rows[0][3]" id="detail" required />
         </div>
 
         <div class="form-group">
-            <label>ID Categoria</label>
+            <label>Category ID</label>
             <select id="categoryId">
                 <option value="@Model.Rows[0][5]" id="categoryId">@Model.Rows[0][4]</option>
 
@@ -42,8 +39,8 @@
         </div>
 
         <div class="form-group">
-            <a href="~/Product/ListingProducts" class="btn btn-default"> Atras</a>
-            <input type="submit" name="Enviar" class="btn btn-success" />
+            <a href="~/Product/ListingProducts" class="btn btn-default"> Back</a>
+            <input type="submit" name="Send" class="btn btn-success" />
         </div>
 
     </form>

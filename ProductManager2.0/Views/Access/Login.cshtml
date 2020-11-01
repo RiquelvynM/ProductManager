@@ -1,27 +1,47 @@
-﻿    
+﻿
 @{
     ViewBag.Title = "Login";
     Layout = "~/Views/Shared/_LayoutLogin.cshtml";
 }
 
-<h3>Login</h3>
-<form role="form" id="form">
-    <div class="form-group">
-        <label for="email">Email address:</label>
-        <input type="email" class="form-control" id="email">
+<div class="agileits-main">
+    <div class="w3top-nav">
+        <div class="w3top-nav-left">
+            <h1><a href="#">Product Management</a></h1>
+        </div>
+        <div class="clear"></div>
     </div>
-    <div class="form-group">
-        <label for="pwd">Password:</label>
-        <input type="password" class="form-control" id="password">
+    <div class="header-main">st
+        <h2>Login Now</h2>
+        <div class="header-bottom">
+            <div class="header-right w3agile">
+                <div class="header-left-bottom agileinfo">
+                    <form id="form">
+                        <div class="icon1">
+                            <input type="email" id="email" placeholder="Email@example.com" required="" />
+                        </div>
+                        <div class="icon1">
+                            <input type="password" id="password" placeholder="Password" required="" />
+                        </div>
+                        <div class="login-check">
+                            <label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i> </i> Keep me logged in</label>
+                        </div>
+                        <div class="bottom">
+                            <input type="submit" value="Log in" />
+                        </div>
+                        <p><a href="#">Forgot Password?</a></p>
+                        <p><a href="#"> Registrer</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
-    <button type="submit" class="btn btn-default">Submit</button><br />
-      <a href="#">Forgot password</a>
-    <br />
-    <div>
-        <br />
-        <p>it's not registered? <a href="/Access/RegistrerUser">Sign up</a> </p>
-    </div>
-</form>
+
+</div>
+
+<div class="copyright w3-agile">
+    <p>© 2020 Matiascorporates. All rights reserved | Contact <a href="#" target="_blank">Riquelvynmatias@gmail.com</a></p>
+</div>
 
 
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"

@@ -16,7 +16,7 @@ namespace ProductManager2._0
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Access", action = "Home", id = UrlParameter.Optional }
+                defaults: new { controller = "Access", action = "Login", id = UrlParameter.Optional }
             );
         }
     }

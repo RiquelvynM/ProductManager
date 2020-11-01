@@ -4,24 +4,23 @@
     Layout = "~/Views/Shared/_LayoutLogin.cshtml";
 }
 
-<h2>Productos</h2>
+<h2>Products</h2>
 
 <div>
     <div>
         <form>
-            <input type="search" id="search" placeholder="Buscar" />
-            <a href="~/Access/Login" class="btn btn-success">Login</a>
+            <input type="search" id="search" placeholder="search" />
         </form>
     </div>
     <div>
         <table class="table table-responsive table-bordered" />
         <thead>
             <tr>
-                <th>Codigo</th>
-                <th>Nombre</th>
-                <th>Precio</th>
-                <th>Detalles</th>
-                <th>Nombre Categoria</th>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Details</th>
+                <th>Category</th>
             </tr>
         </thead>
 
@@ -30,6 +29,10 @@
         </tbody>
 
         </table>
+
+        <form class="text-right">
+            <a href="~/Access/Login" class="btn-default btn">Login</a>
+        </form>
     </div>
 </div>
 

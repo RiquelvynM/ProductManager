@@ -107,6 +107,9 @@ namespace ProductManager2._0.Controllers
 
         }
 
+
+        //Forgot password hacer vista **
+
         //Retorna formulario para crear Usuario
         public ActionResult RegistrerUser()
         {
@@ -165,11 +168,7 @@ namespace ProductManager2._0.Controllers
                 throw;
             }
 
-
         }
-
-
-
 
     }
 }

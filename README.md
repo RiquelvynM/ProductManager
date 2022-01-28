@@ -1,6 +1,6 @@
 # ProductManager
 
-Aplicacion para la gestion administrativa de productos y categorias, con la finalidad de agilizar procesos.
+Aplicacion para la gestion administrativa de productos y categorias.
 
 Request realizados con Jquery/AJAX
 
